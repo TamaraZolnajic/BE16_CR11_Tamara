@@ -72,11 +72,11 @@ height: 200px;
 }
 </style>
 </head>
-<body>
+<body style="background-color:#E0D5C5">
 
 <?php require_once 'components/navbar.php' ?>
 
-<div class="container">
+<div class="container" style="background-color:#E0D5C5">
     <div class="hero shadow">
         <img class="userImage" src="pictures/<?php echo $row['picture']; ?>" alt="<?php echo $row['first_name']; ?>">
         <p class="text-black profile_text" >Hi <?php echo $row['first_name']; ?></p>
